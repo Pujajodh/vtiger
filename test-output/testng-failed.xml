@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.autodesk.crm.leads.LeadsPro">
+        <methods>
+          <include name="confiAS"/>
+          <include name="confiAC"/>
+          <include name="lead"/>
+          <include name="confiAM"/>
+          <include name="congfiBC"/>
+          <include name="congfiDatabase"/>
+          <include name="confiBM"/>
+        </methods>
+      </class> <!-- com.autodesk.crm.leads.LeadsPro -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
